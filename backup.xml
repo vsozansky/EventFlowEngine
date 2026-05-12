@@ -1,0 +1,368 @@
+<?xml version="1.0"?>
+<BackupData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Events>
+    <BackupEvent>
+      <ID>0</ID>
+      <BaseEventID>0</BaseEventID>
+      <ValueID>0</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>0</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>Event</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>1</ID>
+      <BaseEventID>0</BaseEventID>
+      <ValueID>0</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>0</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>SubEvent</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>2</ID>
+      <BaseEventID>0</BaseEventID>
+      <ValueID>1</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>0</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>Actor</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>3</ID>
+      <BaseEventID>0</BaseEventID>
+      <ValueID>1</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>0</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>Entity</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>4</ID>
+      <BaseEventID>0</BaseEventID>
+      <ValueID>1</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>0</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>Relation</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>5</ID>
+      <BaseEventID>0</BaseEventID>
+      <ValueID>1</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>0</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>Attribute</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>6</ID>
+      <BaseEventID>0</BaseEventID>
+      <ValueID>1</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>0</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>AttributeProperty</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>7</ID>
+      <BaseEventID>0</BaseEventID>
+      <ValueID>1</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>0</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>Model</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>8</ID>
+      <BaseEventID>0</BaseEventID>
+      <ValueID>1</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>0</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>Individual</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>9</ID>
+      <BaseEventID>0</BaseEventID>
+      <ValueID>7</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>0</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>Model_Event</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>10</ID>
+      <BaseEventID>3</BaseEventID>
+      <ValueID>7</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>9</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>Model_Entity</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>11</ID>
+      <BaseEventID>4</BaseEventID>
+      <ValueID>7</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>9</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>Model_Relation</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>12</ID>
+      <BaseEventID>6</BaseEventID>
+      <ValueID>1</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>6</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>DataType</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>13</ID>
+      <BaseEventID>12</BaseEventID>
+      <ValueID>7</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>9</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>Model_DataType</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>14</ID>
+      <BaseEventID>12</BaseEventID>
+      <ValueID>8</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>13</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>basic_type</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>15</ID>
+      <BaseEventID>5</BaseEventID>
+      <ValueID>7</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>9</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>Model_Attribute</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>16</ID>
+      <BaseEventID>15</BaseEventID>
+      <ValueID>6</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>15</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>14</Value>
+      <Date>2026-05-12T17:21:30.776Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>17</ID>
+      <BaseEventID>5</BaseEventID>
+      <ValueID>8</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>15</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>Name</Value>
+      <Date>2026-05-12T17:21:30.776Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>18</ID>
+      <BaseEventID>17</BaseEventID>
+      <ValueID>12</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>17</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>14</Value>
+      <Date>2026-05-12T17:21:30.776Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>19</ID>
+      <BaseEventID>9</BaseEventID>
+      <ValueID>5</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>9</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>17</Value>
+      <Date>2026-05-12T17:21:30.776Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>20</ID>
+      <BaseEventID>2</BaseEventID>
+      <ValueID>7</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>9</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>Model_Actor</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>21</ID>
+      <BaseEventID>2</BaseEventID>
+      <ValueID>8</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>20</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>Actor_Main</Value>
+      <Date>2026-05-12T17:21:30.776Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>22</ID>
+      <BaseEventID>21</BaseEventID>
+      <ValueID>17</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>21</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>Main Actor</Value>
+      <Date>2026-05-12T17:21:30.776Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>23</ID>
+      <BaseEventID>0</BaseEventID>
+      <ValueID>1</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>0</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>Role</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>24</ID>
+      <BaseEventID>23</BaseEventID>
+      <ValueID>7</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>9</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>Model_Role</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>25</ID>
+      <BaseEventID>12</BaseEventID>
+      <ValueID>8</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>13</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>enum_type</Value>
+      <Date>2026-05-12T17:21:30.776Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>26</ID>
+      <BaseEventID>0</BaseEventID>
+      <ValueID>1</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>6</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>AttributeConstraint</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>27</ID>
+      <BaseEventID>0</BaseEventID>
+      <ValueID>1</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>0</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>ValueProperty</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>28</ID>
+      <BaseEventID>27</BaseEventID>
+      <ValueID>1</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>27</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>Cardinality</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>29</ID>
+      <BaseEventID>27</BaseEventID>
+      <ValueID>1</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>27</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>Required</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>30</ID>
+      <BaseEventID>27</BaseEventID>
+      <ValueID>1</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>27</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>Permission</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>31</ID>
+      <BaseEventID>27</BaseEventID>
+      <ValueID>1</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>27</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>Set</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+    <BackupEvent>
+      <ID>32</ID>
+      <BaseEventID>27</BaseEventID>
+      <ValueID>1</ValueID>
+      <Conditions xsi:type="EventConditionRule">
+        <EventID>27</EventID>
+      </Conditions>
+      <ActorEventID>0</ActorEventID>
+      <Value>Mutable</Value>
+      <Date>2026-05-12T17:21:30.775Z</Date>
+    </BackupEvent>
+  </Events>
+</BackupData>

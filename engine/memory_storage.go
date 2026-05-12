@@ -153,6 +153,38 @@ func (s *MemoryStorage) GetEventsByActor(actorEventID int) ([]*EventData, error)
 	return result, nil
 }
 
+// ImportEvents загружает события напрямую, минуя проверку ID.
+// Используется для восстановления графа из дампа, где ID событий
+// уже предопределены. Не увеличивает nextID — хранилище переходит
+// в режим «известных ID».
+//
+// Внимание: после ImportEvents nextID устанавливается на max(загруженные ID)+1.
+func (s *MemoryStorage) ImportEvents(events []EventData) error {
+	s.mu.Lock()
+	defer s.mu.Unlock()
+
+	if s.closed {
+		return ErrStorageClosed
+	}
+
+	maxID := 0
+	for _, event := range events {
+		if _, exists := s.events[event.ID]; exists {
+			return fmt.Errorf("%w: событие с ID %d уже существует", ErrDuplicateEvent, event.ID)
+		}
+		if event.Date.IsZero() {
+			event.Date = time.Now().UTC()
+		}
+		s.events[event.ID] = &event
+		if event.ID > maxID {
+			maxID = event.ID
+		}
+	}
+
+	s.nextID = maxID + 1
+	return nil
+}
+
 // EventCount возвращает общее количество событий в графе.
 func (s *MemoryStorage) EventCount() int {
 	s.mu.RLock()
